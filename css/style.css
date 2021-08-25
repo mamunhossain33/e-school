@@ -1,0 +1,307 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color:#F0FFF0;
+}
+.navbar-brand{
+    width: 20%;
+}
+li.nav-item {padding-left: 7px;}
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #56548c;
+}
+.btn_custom{padding: 0;background: #21B573;padding: 5px 14px;border-radius: 30px;color: #fff;}
+.btn_custom:hover{
+    background-color: #1ca064;
+    color: white;
+}
+.header-content{
+
+padding: 80px 0px;
+}
+.header-content h5{
+
+font-size: 16px;
+
+font-weight: 400;
+
+color: #FD511A;
+
+line-height: 24px;
+}
+.header-content span{
+    
+color: #21B573;
+}
+.header-content h2{
+
+font-size: 44px;
+
+font-weight: bold;
+
+line-height: 60px;
+
+font-style: normal;
+
+color: #000000;
+}
+.header-content p{
+
+font-weight: 400;
+
+font-size: 16px;
+
+line-height: 36px;
+}
+.header-content .btn_getstart{
+
+border: none;
+
+border: 1px solid #000000;
+
+padding: 0;
+
+padding: 8px 25px;
+
+background: #21B573;
+
+color: #fff;
+
+border-radius: 30px;
+
+text-transform: capitalize;
+}
+.header-content img{
+
+}
+.feature_section{
+    
+margin-top: 70px;
+}
+.feature_box{
+    
+text-align: center;
+    
+background: #F8FFFB;
+    
+border-radius: 10px;
+    
+padding: 35px 0px;
+}
+.book{
+    
+width: 80%;
+    
+margin-left: 22px;
+}
+.feature_box:hover{
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.feature_box img{
+
+width: 30%;
+}
+.feature_box h2{
+
+font-size: 24px;
+
+line-height: 33px;
+
+font-weight: 500;
+
+padding-top: 23px;
+}
+.feature_box p{
+    
+font-size: 16px;
+    
+line-height: 18px;
+}
+.course_section{
+
+margin-top: 80px;
+}
+.course_section h2{
+    
+}
+.single-course{
+
+background: #fff;
+
+padding: 10px;
+
+box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+
+border-radius: 18px;
+}
+.single-course img{
+    
+padding-bottom: 20px;
+}
+.single-course h1{
+    
+font-size: 24px;
+    
+font-weight: 500;
+    
+color: #413960;
+    
+line-height: 36px;
+    
+margin: 0;
+}
+.single-course h6{
+    
+font-size: 16px;
+    
+line-height: 24px;
+    
+color: #585859;
+    
+margin: 0;
+    
+padding-bottom: 20px;
+}
+.single-course .btn_bycourse{
+    
+padding: 0;
+    
+background: #21B573;
+    
+padding: 8px 28px;
+    
+border-radius: 33px;
+    
+color: #fff;
+    
+text-transform: capitalize;
+}
+.single-course ul{
+    
+margin: 0;
+    
+padding: 0;
+    
+display: flex;
+    
+justify-content: space-between;
+    
+align-items: center;
+    
+padding-top: 30px;
+}
+.single-course ul li{
+    
+font-size: 16px;
+    
+line-height: 24px;
+    
+color: #585859;
+    
+font-weight: 500;
+    
+list-style: none;
+}
+.single-course ul li i{margin-right: 1px;}
+.testi_section{
+    margin-top: 70px;
+}
+.testi_section h2{
+    
+font-size: 36px;
+    
+font-weight: bold;
+    
+line-height: 54px;
+    
+color: #000;
+}
+.testi_section{
+
+}
+.testi_section img{}
+.testi_section p{
+    
+font-size: 16px;
+    
+line-height: 28px;
+    
+color: #000000;
+}
+.testi-container{
+    
+display: flex;
+    
+align-items: center;
+    
+justify-content: space-between;
+}
+.footer-section{
+
+background: #282531;
+
+margin-top: 70px;
+}
+.footer-section p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+}
+.footer-section h2{
+    
+color: #fff;
+    
+font-size: 18px;
+    
+font-weight: 700;
+}
+.footer-section ul{
+    
+padding: 0;
+    
+margin: 0;
+}
+.footer-section ul li{
+    
+list-style: none;
+}
+.footer-section ul li a{
+    
+text-decoration: none;
+    
+color: #fff;
+    
+font-size: 16px;
+    
+line-height: 30px;
+}
+.copy-write{
+
+background: #282531;
+
+padding: 20px 0px;
+
+border-top: 1px solid #535252;
+}
+.copy-write h3{
+    
+font-size: 16px;
+    
+font-weight: normal;
+    
+color: #CDCDCD;
+}
